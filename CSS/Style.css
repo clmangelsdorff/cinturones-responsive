@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 20
+}
+
+  .Logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 40px;
+}
+
+  .titulo {
+    font-weight: 100px;
+    position: relative; 
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+   }
+
+.Navbar {
+    background-color:#dbb077;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+    
+.Navbar ul {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+.Navbar li {
+    margin: 0 40px;
+    background-color: #dbb077;
+}
+
+.Navbar a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 90px 40px;
+    display: block;
+    background-color: #dbb077;
+}
+
+.elemento.fijo{
+    position: fixed;
+
+}
+
+.caja1 {
+    height: 150px;
+    width: 250px;
+    border: 10px solid #dbb077;
+    line-height: 150px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.caja2 {
+    height: 150px;
+    width: 250px;
+    border: 10px solid #dbb077;
+    line-height: 150px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.caja3 {
+    height: 150px;
+    width: 250px;
+    border: 10px solid #dbb077;
+    line-height: 150px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.contenedor {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.texto-ancho{
+    margin-top: 40px;
+    color: rgb(73, 72, 62);
+    text-align: justify;
+}
+
+.carrusel{
+    height: 800px;
+    width: 800px;
+    margin: 300px;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+footer a {
+    color: black;
+    text-decoration: none; 
+  }
+  
+  footer a:hover {
+    text-decoration: underline; 
+  }
+  
