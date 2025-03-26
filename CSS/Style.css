@@ -123,4 +123,53 @@ footer a {
   footer a:hover {
     text-decoration: underline; 
   }
+
+
+  @media (max-width: 768px) {
+    .titulo {
+      font-size: 2.5rem;
+    }
   
+    .Navbar a {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+    }
+  
+    .caja1,
+    .caja2,
+    .caja3 {
+      width: 80%;
+      height: auto;
+      line-height: normal;
+      padding: 1rem;
+    }
+  
+    .carousel-inner img {
+      max-height: 300px;
+    }
+  
+    .carrusel {
+      width: 100%;
+      margin: 2rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .titulo {
+      font-size: 2rem;
+    }
+  
+    .Navbar ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .Navbar a {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+  
+    .Logo {
+      max-height: 40px;
+    }
+  }
