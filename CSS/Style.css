@@ -7,9 +7,10 @@ body {
   box-sizing: border-box;
 }
 
-.h2 {
+.titulo-seccion {
     text-align: center;
-}
+  }
+  
 .titulo {
   font-family: Arial, sans-serif;
   font-weight: 100;
