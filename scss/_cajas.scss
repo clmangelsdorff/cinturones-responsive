@@ -1,0 +1,16 @@
+%base-caja {
+  border-radius: 8px;
+  margin: 1rem;
+  color: map-get($colores, texto);
+}
+
+.caja1, .caja2, .caja3 {
+  @extend %base-caja;
+  @include caja();
+}
+
+.contenedor {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}

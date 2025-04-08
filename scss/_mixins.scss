@@ -1,0 +1,16 @@
+@mixin caja($ancho: 250px, $alto: 150px) {
+  width: $ancho;
+  height: $alto;
+  border: 10px solid map-get($colores, borde);
+  background-color: map-get($colores, fondo);
+  text-align: center;
+  line-height: $alto;
+}
+
+@mixin responsive-text($size-desktop, $size-mobile) {
+  font-size: $size-desktop;
+
+  @media (max-width: 768px) {
+    font-size: $size-mobile;
+  }
+}
